@@ -292,6 +292,7 @@ dig axfr nebula.io @IP_DEL_OBJETIVO
 
     tyP28J7JAUHA9fw2sHXMgcCC0I6XBmmoVi04VlMewxA
 
+---------------------------------------------------------------------------------------------------------------------------------------------
 ### 5.2 ¿A qué IP apunta el dominio de nebula.io? ###
 
 **🌐 ¿Qué es un registro A en DNS?**
@@ -303,7 +304,7 @@ Un registro A (Address) es un tipo de registro DNS que asocia un nombre de domin
 **✅ RESPUESTA:**
 
     192.168.150.144
-
+---------------------------------------------------------------------------------------------------------------------------------------------
 ### 5.3 ¿A qué IP apunta el dominio de nebula.io? ###
 
 **🌍 ¿Qué es un registro AAAA?**
@@ -315,12 +316,60 @@ Un registro AAAA (cuatro A) en DNS es como el registro A, pero para direcciones 
 **✅ RESPUESTA:**
 
     dead:beef::1
-
+---------------------------------------------------------------------------------------------------------------------------------------------
 ### 5.4 ¿Cuál es el TTL del ftp? ###
-
 
 <img width="1590" alt="Captura de pantalla 2025-04-17 a las 18 35 37" src="https://github.com/user-attachments/assets/5c3a93c1-9db4-444c-8f61-0d3cc00c3729" />
 
 **✅ RESPUESTA:**
 
     7200
+---------------------------------------------------------------------------------------------------------------------------------------------
+### 5.5 Nebula se conecta a través de VPN por la ip… ###
+
+<img width="1598" alt="Captura de pantalla 2025-04-17 a las 21 25 45" src="https://github.com/user-attachments/assets/db5c5901-59c8-453b-b2fc-26f3909aa951" />
+
+**✅ RESPUESTA:**
+
+    198.51.100.10
+---------------------------------------------------------------------------------------------------------------------------------------------  
+### 5.6 Nebula se conecta al correo electrónico por la ip… ###
+
+<img width="1710" alt="Captura de pantalla 2025-04-17 a las 21 28 44" src="https://github.com/user-attachments/assets/946ae151-063a-4917-af1a-8d0bc4f40a28" />
+
+**✅ RESPUESTA:**
+
+    192.168.150.146
+---------------------------------------------------------------------------------------------------------------------------------------------
+### 5.7 En el registro PTR, ¿cuál es el prefijo inverso? ###
+
+<img width="1606" alt="Captura de pantalla 2025-04-17 a las 21 31 57" src="https://github.com/user-attachments/assets/fe34ec51-9de7-4911-bbdf-73acb012b788" />
+
+**✅ RESPUESTA:**
+
+    144.150.168.192.IN-ADDR.ARPA.nebula.io.
+---------------------------------------------------------------------------------------------------------------------------------------------
+### 5.8 ¿Con quien contactarías en caso de necesitar ayuda con el soporte? ###
+
+<img width="1598" alt="Captura de pantalla 2025-04-17 a las 21 34 23" src="https://github.com/user-attachments/assets/b5328905-83d1-4c25-8188-4af1321ee2c3" />
+
+**✅ RESPUESTA:**
+
+    admin@nebula.io
+---------------------------------------------------------------------------------------------------------------------------------------------
+### 5.9 ¿Cuál es la información del servidor de nebula.io? ###
+
+<img width="1591" alt="Captura de pantalla 2025-04-17 a las 21 39 00" src="https://github.com/user-attachments/assets/b27c5136-3905-4f13-a6a4-e1810a734f51" />
+
+**✅ RESPUESTA:**
+
+    "Nebula Server" "Linux"
+
+ ---------------------------------------------------------------------------------------------------------------------------------------------
+### 5.10 Encuentra la flag ###
+
+<img width="1599" alt="Captura de pantalla 2025-04-17 a las 21 40 50" src="https://github.com/user-attachments/assets/eb0d80db-9c32-463a-958d-b7be5b683218" />
+
+**✅ RESPUESTA:**
+
+    "BLUFFER{S3cr3t_DNS_Tr4nsfer_Flag}"
