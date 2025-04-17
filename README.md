@@ -257,3 +257,70 @@ https://www.suse.com/es-es/support/kb/doc/?id=000021295
 **✅ RESPUESTA:**
 
     10114
+
+### TASK 5: ###
+---
+**INTRODUCCIÓN A LAS SALA**
+
+Una transferencia de zona DNS, a veces llamada AXFR por el tipo de solicitud, es un tipo de transacción de DNS. Es uno de varios mecanismos disponibles para administradores para replicar bases de datos DNS a través de un conjunto de servidores DNS. La transferencia puede hacerse de dos formas: completa (AXFR) o incremental (IXFR)
+
+### 5.1 ¿Cuál es el código de verificación de google site? ###
+
+En base a la introudcción, podemos inferir que el ejercicio va a tener que ver con la zona de transferencia. 
+
+**🔍 ¿Qué es AXFR?**
+
+AXFR (Asynchronous Full Transfer) es un tipo de consulta DNS que permite transferir toda la zona DNS de un dominio desde un servidor al cliente que lo solicita.
+
+Para acceder a esta, en el caso de que no este bien configurada, usamos el siguiente comando:
+
+```bash
+dig axfr nebula.io @IP_DEL_OBJETIVO
+```
+
+* dig: herramienta de consultas DNS.
+
+* axfr: tipo de consulta que solicita una transferencia completa de la zona DNS.
+
+* nebula.io: dominio objetivo.
+
+* @IP_DEL_OBJETIVO: IP del servidor DNS autoritativo para el dominio.
+
+<img width="1588" alt="Captura de pantalla 2025-04-17 a las 18 15 35" src="https://github.com/user-attachments/assets/6f104a20-03e7-471c-89e0-c0bd28e9d63b" />
+
+**✅ RESPUESTA:**
+
+    tyP28J7JAUHA9fw2sHXMgcCC0I6XBmmoVi04VlMewxA
+
+### 5.2 ¿A qué IP apunta el dominio de nebula.io? ###
+
+**🌐 ¿Qué es un registro A en DNS?**
+
+Un registro A (Address) es un tipo de registro DNS que asocia un nombre de dominio (como nebula.io) con una dirección IPv4.
+
+<img width="1614" alt="Captura de pantalla 2025-04-17 a las 18 24 02" src="https://github.com/user-attachments/assets/0e8511d0-be57-48a9-97ec-6354ccc43e0c" />
+
+**✅ RESPUESTA:**
+
+    192.168.150.144
+
+### 5.3 ¿A qué IP apunta el dominio de nebula.io? ###
+
+**🌍 ¿Qué es un registro AAAA?**
+
+Un registro AAAA (cuatro A) en DNS es como el registro A, pero para direcciones IPv6.
+
+<img width="1602" alt="Captura de pantalla 2025-04-17 a las 18 27 20" src="https://github.com/user-attachments/assets/fcd3213b-39a0-4592-920b-403274251b53" />
+
+**✅ RESPUESTA:**
+
+    dead:beef::1
+
+### 5.4 ¿Cuál es el TTL del ftp? ###
+
+
+<img width="1590" alt="Captura de pantalla 2025-04-17 a las 18 35 37" src="https://github.com/user-attachments/assets/5c3a93c1-9db4-444c-8f61-0d3cc00c3729" />
+
+**✅ RESPUESTA:**
+
+    7200
