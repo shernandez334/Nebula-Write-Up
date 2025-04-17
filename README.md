@@ -167,3 +167,93 @@ nmap -sVC IP_DEL_OBJETIVO -p-
 **✅ RESPUESTA:**
 
     b1:7b:06:a9:49:85:1e:2a:0a:de:71:9d:8b:50:d3:4a
+
+### Task 4: ###
+---
+
+### 4.1 ¿Qué servicio es vulnerable a ataques de man-in-the-middle? ###
+
+**✅ RESPUESTA:**
+
+    SSH    
+---------------------------------------------------------------------------------------------------------------------------------------------
+### 4.2 ¿Cuál es el CVSS asociado a la vulnerabilidad? ###
+
+Para identificar con mayor precisión las vulnerabilidades presentes en los puertos abiertos(53, 80, 1986), se emplea la herramienta Nessus. Si bien Nmap dispone de scripts que permiten realizar detección de vulnerabilidades (mediante la opción --script), Nessus ofrece una interfaz más intuitiva y automatizada que facilita el proceso de análisis. Además, proporciona informes detallados que incluyen descripciones, niveles de severidad y recomendaciones para mitigar los hallazgos, lo cual resulta fundamental para tareas de evaluación y documentación de la seguridad de la red. 
+
+Abajo está un tutorial de Nessus y de como encontramos la vulnerabilidad.
+
+<img width="1708" alt="Captura de pantalla 2025-04-17 a las 15 47 27" src="https://github.com/user-attachments/assets/8593b46c-fe8c-49f2-8c52-771f281ab7f3" />
+
+<img width="1710" alt="Captura de pantalla 2025-04-17 a las 15 51 37" src="https://github.com/user-attachments/assets/62f2c6e1-1829-427d-b684-c1893263d6bc" />
+
+<img width="1413" alt="Captura de pantalla 2025-04-17 a las 16 03 21" src="https://github.com/user-attachments/assets/e166244a-feea-4a5b-ad2b-6af0bec00e49" />
+
+<img width="1710" alt="Captura de pantalla 2025-04-17 a las 15 53 17" src="https://github.com/user-attachments/assets/22db78e3-a8d0-44b3-9435-2a3817150fc9" />
+
+<img width="1443" alt="Captura de pantalla 2025-04-17 a las 16 32 40" src="https://github.com/user-attachments/assets/0500ba86-d97a-4ab9-96e5-ecdaafa66555" />
+
+**✅ RESPUESTA:**
+
+    5,9
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+### 4.3 ¿Cómo se llama popularmente el ataque? ###
+
+Una vez identificada la vulnerabilidad con Nessus, accedí a la información detallada proporcionada por la herramienta haciendo clic sobre el hallazgo correspondiente.
+
+<img width="1452" alt="Captura de pantalla 2025-04-17 a las 16 39 51" src="https://github.com/user-attachments/assets/b43450f5-7de8-41a6-a505-31867f040527" />
+
+Encontre que el nombre completo de la vulnerabilidad es: SSH Terrapin Prefix Truncation Weakness.
+
+<img width="1439" alt="Captura de pantalla 2025-04-17 a las 16 40 46" src="https://github.com/user-attachments/assets/ff409d9f-8823-4277-8534-8ddbd42d6d37" />
+
+Sin embargo, el nombre proporcionado por Nessus no coincidía con la denominación comúnmente utilizada para esta vulnerabilidad. Por ello, realicé una búsqueda en Google utilizando el nombre completo del hallazgo y encontré información relevante en la siguiente página:
+
+
+https://www.suse.com/es-es/support/kb/doc/?id=000021295
+
+<img width="1707" alt="Captura de pantalla 2025-04-17 a las 16 41 52" src="https://github.com/user-attachments/assets/8b075283-baa1-4446-bf80-92094b6ac756" />
+
+**✅ RESPUESTA:**
+
+    Terrapin Attack
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+### 4.4 ¿Cuál es el CVE asociado a la vulnerabilidad más alta de SSH? ###
+
+<img width="1437" alt="Captura de pantalla 2025-04-17 a las 16 55 29" src="https://github.com/user-attachments/assets/192ca819-0479-4342-88dd-406ed9c0ff34" />
+
+**✅ RESPUESTA:**
+
+    CVE-2023-48795
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+### 4.5 ¿Cuál es el CVE asociado a la vulnerabilidad más alta de SSH? ###
+
+
+<img width="1004" alt="Captura de pantalla 2025-04-17 a las 17 00 14" src="https://github.com/user-attachments/assets/e6e8e142-82a3-459d-a06c-9d0289380964" />
+
+**✅ RESPUESTA:**
+
+    2,1
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+### 4.6 ¿Cómo se llama la vulnerabilidad? ###
+
+<img width="1450" alt="Captura de pantalla 2025-04-17 a las 17 07 37" src="https://github.com/user-attachments/assets/84efe136-34c6-43db-b8ef-953ed1e1fc34" />
+
+<img width="1443" alt="Captura de pantalla 2025-04-17 a las 17 08 13" src="https://github.com/user-attachments/assets/cb7f0fd9-f839-457d-a4f9-245767f9334d" />
+
+**✅ RESPUESTA:**
+
+    ICMP Timestamp Request Remote Date Disclosure
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+### 4.7 ¿Qué Plugin la ha detectado? ###
+
+<img width="1456" alt="Captura de pantalla 2025-04-17 a las 17 14 02" src="https://github.com/user-attachments/assets/c9ed66d9-fe6e-49aa-8723-165981481f8f" />
+
+**✅ RESPUESTA:**
+
+    10114
