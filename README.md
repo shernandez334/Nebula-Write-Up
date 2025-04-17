@@ -159,8 +159,8 @@ nmap -sVC IP_DEL_OBJETIVO -p-
 ---------------------------------------------------------------------------------------------------------------------------------------------
 ### 3.9 ¿Cuál es la Public Key de ED25519? ###
 
+<img width="1034" alt="Captura de pantalla 2025-04-17 a las 13 47 39" src="https://github.com/user-attachments/assets/52a0ee7b-d7ce-4d40-9159-65d208244bd1" />
 
-<img width="1710" alt="Captura de pantalla 2025-04-17 a las 13 45 19" src="https://github.com/user-attachments/assets/19a5aacf-bc46-4d51-9ffc-4db28e49deed" />
 
 *Respuesta del comando anterior*
 
